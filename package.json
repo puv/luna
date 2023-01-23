@@ -1,0 +1,35 @@
+{
+  "name": "luna",
+  "version": "0.0.1",
+  "description": "A powerful Discord library with a stable syntax and up-to-date features.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puv/Luna.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "bot",
+    "library",
+    "node",
+    "discord",
+    "discord-bot",
+    "discord-api"
+  ],
+  "author": "puv",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/puv/Luna/issues"
+  },
+  "homepage": "https://github.com/puv/Luna#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.32.0",
+    "typescript": "^4.9.4"
+  }
+}

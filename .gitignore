@@ -15,6 +15,7 @@ node_modules/
 # VSCode files
 .vscode
 
-# Documentation & Testing
+# Documentation, testing & other folders
 docs/
 test/
+dist/

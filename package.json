@@ -4,7 +4,10 @@
   "description": "A powerful Discord library with a stable syntax and up-to-date features.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "test:lint": "npm run lint",
+    "test:lint:fix": "npm run lint:fix"
   },
   "repository": {
     "type": "git",
@@ -27,9 +30,11 @@
   },
   "homepage": "https://github.com/puv/Luna#readme",
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "eslint": "^8.32.0",
+    "tslint": "^6.1.3",
     "typescript": "^4.9.4"
   }
 }

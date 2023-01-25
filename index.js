@@ -1,4 +1,4 @@
-const Client = require("./src/Client");
+const Client = require("./src/Client.js");
 
 
 function Luna(token, options) {
